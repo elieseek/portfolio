@@ -1,33 +1,30 @@
-.App {
-  text-align: center;
+:root {
+  --scroll-position: -40deg;
+}
+.Home {
+  background-image: linear-gradient(var(--scroll-position), rgb(149, 10, 155) 0%, rgb(149, 10, 155) 9%,rgb(120, 16, 136) 9%, rgb(120, 16, 136) 13%,rgb(178, 3, 174) 13%, rgb(178, 3, 174) 32%,rgb(91, 23, 117) 32%, rgb(91, 23, 117) 42%,rgb(32, 36, 79) 42%, rgb(32, 36, 79) 46%,rgb(61, 30, 98) 46%, rgb(61, 30, 98) 70%,rgb(3, 43, 60) 70%, rgb(3, 43, 60) 100%);
+  height: 90vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.titleCard .myWork {
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.myWork {
+  height: 90vh;
   color: white;
+  display: flex;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Projects {
+  background: rgb(250, 249, 246);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(34, 0, 56);
+  padding-bottom: 10vh;
 }
