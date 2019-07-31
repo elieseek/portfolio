@@ -14,13 +14,14 @@ function getScrollPercent() {
 }
 
 function App() {
-
-  const [Pos, setPos] = useState(window.scrollY)
+  
   const handlePos = function(event) {
     let scrollPerc = getScrollPercent();
     let scroll = Math.min(Math.max(5, scrollPerc/2), 45);
-    document.documentElement.style
+    requestAnimationFrame(() => {
+      document.documentElement.style
       .setProperty('--scroll-position', scroll-45 + 'deg')
+    });
   }
   useEffect(() => {
     window.addEventListener("scroll", handlePos)

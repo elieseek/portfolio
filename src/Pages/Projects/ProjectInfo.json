@@ -1,0 +1,22 @@
+[
+  {
+    "src": "#",
+    "title": "Face Verification",
+    "content": "Creating unique embeddings from facial images. Built in PyTorch with an implementation of generalised end-to-end loss.",
+    "link": "https://github.com/elieseek/face-verification"
+  },
+
+  {
+    "src": "#",
+    "title": "Video-to-Heartbeat",
+    "content": "Analysing the colour signal of still subjects to extract heartbeat signals. Built in Python using OpenCV.",
+    "link": "https://github.com/elieseek/video-to-heartbeat"
+  },
+
+  {
+    "src": "#",
+    "title": "React Website",
+    "content": "This very website, complete with custom CSS and React components. Built using Create React App.",
+    "link": "https://github.com/elieseek/portfolio"
+  }
+]

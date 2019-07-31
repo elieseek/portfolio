@@ -1,0 +1,37 @@
+.contact-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.contact-logo {
+  height: 2.5em;
+  width: auto;
+  pointer-events: all;
+}
+
+.contact-email {
+  display: table;
+  padding: 10px;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(250, 249, 246);
+  background: rgb(34, 0, 56);
+  margin-left: 1em;
+  pointer-events: all;
+  user-select: text;
+  transition: all 0.2s ease-out;
+}
+
+.contact-email:hover {
+  background-color: rgb(250, 249, 246);
+  color: rgb(34, 0, 56);
+  transition: all 0.2s ease-out;
+}
+
+.contact-email div {
+  display: table-cell;
+  vertical-align: middle;
+}

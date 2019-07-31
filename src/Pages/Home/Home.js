@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 function Home(props) {
   return (
@@ -12,6 +13,11 @@ function Home(props) {
         <div className='Projects'>
           <div>
             <Projects/>
+          </div>
+        </div>
+        <div className='Contact'>
+          <div>
+            <Contact/>
           </div>
         </div>
       </div>
