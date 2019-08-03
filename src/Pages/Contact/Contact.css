@@ -16,12 +16,14 @@
   display: table;
   padding: 10px;
   border: solid;
+  border-width: 1px;
   border-radius: 5px;
   border-color: rgb(250, 249, 246);
   background: rgb(34, 0, 56);
+  color: rgb(250, 249, 246);
   margin-left: 1em;
   pointer-events: all;
-  user-select: text;
+  text-decoration: none;
   transition: all 0.2s ease-out;
 }
 

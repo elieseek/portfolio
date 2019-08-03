@@ -11,9 +11,9 @@ function Contact(props) {
         <a href='https://www.github.com/elieseek' draggable='False'>
           <img className='contact-logo' draggable='False' src={githubLogo}/>
         </a>
-        <div className='contact-email'>
-          <div>eliegseek@gmail.com</div>
-        </div>
+        <a draggable='False' className='contact-email' href='mailto:eliegseek@gmail.com'>
+            eliegseek@gmail.com
+        </a>
       </div>
     </div>
   )
